@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+paper/*.pdf
+figures/*.pdf

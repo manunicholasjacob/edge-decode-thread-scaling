@@ -55,7 +55,9 @@ python code/gen_fig_threads.py        # Figure 1, same exclusion as the tables
 The five `paper/numbers_*.tex` macro files these write are the ones the
 manuscript includes, and they are committed here as generated. Running the
 seven commands above and then `git diff` is therefore the check: it should
-come back empty, which is what it does.
+come back empty, which is what it does. Generated figure PDFs are not tracked,
+because a PDF embeds its creation time and would differ on every build for
+that reason alone.
 
 To check any sweep for the ordering confound:
 
