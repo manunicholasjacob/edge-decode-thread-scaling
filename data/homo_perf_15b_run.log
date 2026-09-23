@@ -1,0 +1,32 @@
+[20:05:38] === homo_perf_15b start ===
+[20:05:38] [1.5 B / Q2_K] download
+[20:06:47] [1.5 B / Q2_K] bytes=752880160 sha=5ede348e91ce temp_pre=48.8C stray=0
+[20:30:01] [1.5 B / Q2_K] perf n=128 t=2
+[20:30:42] [1.5 B / Q2_K] perf n=256 t=2
+[20:32:04] [1.5 B / Q2_K] temp_post=56.0C leaked=0
+[20:32:04] [1.5 B / Q2_K] done
+[20:32:04] [1.5 B / Q6_K] download
+[20:35:14] [1.5 B / Q6_K] bytes=1464178720 sha=e16d94f3b1eb temp_pre=47.7C stray=0
+[22:11:01] [1.5 B / Q6_K] perf n=128 t=2
+[22:13:11] [1.5 B / Q6_K] perf n=256 t=2
+[22:15:50] [1.5 B / Q6_K] temp_post=53.2C leaked=0
+[22:15:50] [1.5 B / Q6_K] done
+[22:15:50] [1.5 B / Q4_0] download
+[22:17:15] [1.5 B / Q4_0] bytes=1066227232 sha=dcd819ff0948 temp_pre=48.8C stray=0
+[22:31:38] [1.5 B / Q4_0] perf n=128 t=2
+[22:32:34] [1.5 B / Q4_0] perf n=256 t=2
+[22:35:00] [1.5 B / Q4_0] temp_post=54.3C leaked=0
+[22:35:01] [1.5 B / Q4_0] done
+[22:35:01] [1.5 B / Q5_0] download
+[22:36:58] [1.5 B / Q5_0] bytes=1259173408 sha=a579334a7b19 temp_pre=47.2C stray=0
+[23:03:57] [1.5 B / Q5_0] perf n=128 t=2
+[23:04:44] [1.5 B / Q5_0] perf n=256 t=2
+[23:06:17] [1.5 B / Q5_0] temp_post=57.6C leaked=0
+[23:06:17] [1.5 B / Q5_0] done
+[23:06:17] [1.5 B / Q5_K_M] download
+[23:08:25] [1.5 B / Q5_K_M] bytes=1285494304 sha=b46661073c18 temp_pre=47.7C stray=0
+[23:34:45] [1.5 B / Q5_K_M] perf n=128 t=2
+[23:36:18] [1.5 B / Q5_K_M] perf n=256 t=2
+[23:38:38] [1.5 B / Q5_K_M] temp_post=54.3C leaked=0
+[23:38:38] [1.5 B / Q5_K_M] done
+[23:38:38] === DONE: 5 counter rows, 40 curve rows ===

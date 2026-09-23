@@ -1,0 +1,38 @@
+[12:37:33] === homo_sweep start (binary in /home/manu/llm/llama.cpp/build/bin) ===
+[12:37:33] [0.5 B / Q2_K] download
+[12:37:59] [0.5 B / Q2_K] bytes=415182688 temp_pre=49.4C
+[12:43:36] [0.5 B / Q2_K] temp_post=58.7C
+[12:43:36] [0.5 B / Q2_K] done
+[12:43:36] [1.5 B / Q4_K_M] download
+[12:44:57] [1.5 B / Q4_K_M] bytes=1117320736 temp_pre=49.9C
+[13:05:01] [1.5 B / Q4_K_M] temp_post=54.9C
+[13:05:01] [1.5 B / Q4_K_M] done
+[13:05:01] [0.5 B / Q3_K_M] download
+[13:05:33] [0.5 B / Q3_K_M] bytes=432041824 temp_pre=50.5C
+[13:10:59] [0.5 B / Q3_K_M] temp_post=57.1C
+[13:10:59] [0.5 B / Q3_K_M] done
+[13:10:59] [1.5 B / Q3_K_M] download
+[13:11:56] [1.5 B / Q3_K_M] bytes=924455968 temp_pre=51.0C
+[13:33:59] [1.5 B / Q3_K_M] temp_post=59.3C
+[13:33:59] [1.5 B / Q3_K_M] done
+[13:33:59] [0.5 B / Q4_0] download
+[13:34:32] [0.5 B / Q4_0] bytes=428730208 temp_pre=52.1C
+[13:39:16] [0.5 B / Q4_0] temp_post=57.1C
+[13:39:16] [0.5 B / Q4_0] done
+[13:39:16] [0.5 B / Q8_0] download
+[13:39:58] [0.5 B / Q8_0] bytes=675710816 temp_pre=51.6C
+[13:46:46] [0.5 B / Q8_0] temp_post=56.0C
+[13:46:46] [0.5 B / Q8_0] done
+[13:46:46] [0.5 B / Q4_K_M] download
+[13:47:18] [0.5 B / Q4_K_M] bytes=491400032 temp_pre=50.5C
+[13:55:30] [0.5 B / Q4_K_M] temp_post=57.6C
+[13:55:30] [0.5 B / Q4_K_M] done
+[13:55:30] [0.5 B / Q6_K] download
+[13:56:13] [0.5 B / Q6_K] bytes=650379104 temp_pre=51.0C
+[14:03:05] [0.5 B / Q6_K] temp_post=56.5C
+[14:03:05] [0.5 B / Q6_K] done
+[14:03:05] [0.5 B / Q5_K_M] download
+[14:03:45] [0.5 B / Q5_K_M] bytes=522186592 temp_pre=51.6C
+[14:12:47] [0.5 B / Q5_K_M] temp_post=57.6C
+[14:12:47] [0.5 B / Q5_K_M] done
+[14:12:47] === DONE ===

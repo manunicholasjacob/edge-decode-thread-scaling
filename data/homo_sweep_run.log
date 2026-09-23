@@ -1,0 +1,38 @@
+[17:26:10] === homo_sweep v2 start (binary in /home/manu/llm/llama.cpp/build/bin) ===
+[17:26:10] [0.5 B / Q2_K] download
+[17:26:33] [0.5 B / Q2_K] bytes=415182688 temp_pre=48.3C stray_samplers=0
+[17:32:07] [0.5 B / Q2_K] temp_post=57.1C leaked_after=0
+[17:32:07] [0.5 B / Q2_K] done
+[17:32:08] [1.5 B / Q4_K_M] download
+[17:33:24] [1.5 B / Q4_K_M] bytes=1117320736 temp_pre=49.9C stray_samplers=0
+[17:52:04] [1.5 B / Q4_K_M] temp_post=56.5C leaked_after=0
+[17:52:04] [1.5 B / Q4_K_M] done
+[17:52:04] [0.5 B / Q3_K_M] download
+[17:52:32] [0.5 B / Q3_K_M] bytes=432041824 temp_pre=51.6C stray_samplers=0
+[17:57:32] [0.5 B / Q3_K_M] temp_post=56.5C leaked_after=0
+[17:57:32] [0.5 B / Q3_K_M] done
+[17:57:32] [1.5 B / Q3_K_M] download
+[17:58:35] [1.5 B / Q3_K_M] bytes=924455968 temp_pre=51.6C stray_samplers=0
+[18:19:35] [1.5 B / Q3_K_M] temp_post=59.8C leaked_after=0
+[18:19:36] [1.5 B / Q3_K_M] done
+[18:19:36] [0.5 B / Q4_0] download
+[18:19:56] [0.5 B / Q4_0] bytes=428730208 temp_pre=53.8C stray_samplers=0
+[18:24:13] [0.5 B / Q4_0] temp_post=57.1C leaked_after=0
+[18:24:13] [0.5 B / Q4_0] done
+[18:24:13] [0.5 B / Q8_0] download
+[18:24:46] [0.5 B / Q8_0] bytes=675710816 temp_pre=51.6C stray_samplers=0
+[18:30:49] [0.5 B / Q8_0] temp_post=57.1C leaked_after=0
+[18:30:49] [0.5 B / Q8_0] done
+[18:30:49] [0.5 B / Q4_K_M] download
+[18:31:15] [0.5 B / Q4_K_M] bytes=491400032 temp_pre=52.1C stray_samplers=0
+[18:38:54] [0.5 B / Q4_K_M] temp_post=58.2C leaked_after=0
+[18:38:54] [0.5 B / Q4_K_M] done
+[18:38:54] [0.5 B / Q6_K] download
+[18:39:26] [0.5 B / Q6_K] bytes=650379104 temp_pre=52.1C stray_samplers=0
+[18:45:35] [0.5 B / Q6_K] temp_post=57.6C leaked_after=0
+[18:45:35] [0.5 B / Q6_K] done
+[18:45:35] [0.5 B / Q5_K_M] download
+[18:46:05] [0.5 B / Q5_K_M] bytes=522186592 temp_pre=52.1C stray_samplers=0
+[18:54:33] [0.5 B / Q5_K_M] temp_post=59.8C leaked_after=0
+[18:54:33] [0.5 B / Q5_K_M] done
+[18:54:33] === DONE ===

@@ -1,0 +1,14 @@
+[16:07:37] === pi order control: bytes=491400032 sha=74a4da8c9fdb ===
+[16:08:57]   ref_start t=2 pos=0  pre=[47.7 0x0] post=[56.5 0x0]
+[16:11:12]   ascending t=1 pos=1  pre=[56.0 0x0] post=[53.2 0x0]
+[16:12:32]   ascending t=2 pos=2  pre=[52.1 0x0] post=[58.2 0x0]
+[16:13:39]   ascending t=3 pos=3  pre=[57.6 0x0] post=[59.3 0x0]
+[16:14:43]   ascending t=4 pos=4  pre=[59.8 0x0] post=[60.4 0x0]
+[16:16:03]   ref_middle t=2 pos=0  pre=[60.4 0x0] post=[57.1 0x0]
+[16:16:03] cooling 240s
+[16:21:07]   descending t=4 pos=1  pre=[47.7 0x0] post=[57.6 0x0]
+[16:22:14]   descending t=3 pos=2  pre=[57.6 0x0] post=[57.6 0x0]
+[16:23:34]   descending t=2 pos=3  pre=[57.6 0x0] post=[57.1 0x0]
+[16:25:49]   descending t=1 pos=4  pre=[57.1 0x0] post=[53.8 0x0]
+[16:27:09]   ref_end t=2 pos=0  pre=[53.2 0x0] post=[58.2 0x0]
+[16:27:09] === PI ORDER CONTROL DONE ===

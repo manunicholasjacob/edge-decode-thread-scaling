@@ -1,0 +1,68 @@
+[04:09:40] === homo_perf v3 start (binary in /home/manu/llm/llama.cpp/build/bin) ===
+[04:09:40] [0.5 B / Q8_0 / perf] download
+[04:10:27] [0.5 B / Q8_0] bytes=675710816 sha=ca59ca7f13d0 temp_pre=46.6C stray=0
+[04:10:27] [0.5 B / Q8_0] perf n=128 t=2
+[04:10:50] [0.5 B / Q8_0] perf n=256 t=2
+[04:11:28] [0.5 B / Q8_0] temp_post=54.9C leaked_after=0
+[04:11:28] [0.5 B / Q8_0] done
+[04:11:28] [1.5 B / Q3_K_M / perf] download
+[04:12:34] [1.5 B / Q3_K_M] bytes=924455968 sha=58cb5c05ecef temp_pre=48.8C stray=0
+[04:12:34] [1.5 B / Q3_K_M] perf n=128 t=2
+[04:13:36] [1.5 B / Q3_K_M] perf n=256 t=2
+[04:15:01] [1.5 B / Q3_K_M] temp_post=56.5C leaked_after=0
+[04:15:01] [1.5 B / Q3_K_M] done
+[04:15:01] [0.5 B / Q4_0 / perf] download
+[04:15:34] [0.5 B / Q4_0] bytes=428730208 sha=7671c0c304e6 temp_pre=50.5C stray=0
+[04:15:34] [0.5 B / Q4_0] perf n=128 t=2
+[04:15:46] [0.5 B / Q4_0] perf n=256 t=2
+[04:16:15] [0.5 B / Q4_0] temp_post=55.4C leaked_after=0
+[04:16:15] [0.5 B / Q4_0] done
+[04:16:15] [0.5 B / F16 / full] download
+[04:17:52] [0.5 B / F16] bytes=1266425696 sha=8e0ae2600062 temp_pre=49.4C stray=0
+[04:29:09] [0.5 B / F16] perf n=128 t=2
+[04:29:40] [0.5 B / F16] perf n=256 t=2
+[04:30:42] [0.5 B / F16] temp_post=56.5C leaked_after=0
+[04:30:42] [0.5 B / F16] done
+[04:30:42] [0.5 B / Q2_K / perf] download
+[04:31:03] [0.5 B / Q2_K] bytes=415182688 sha=9ee36184e616 temp_pre=51.0C stray=0
+[04:31:17] [0.5 B / Q2_K] perf n=128 t=2
+[04:31:30] [0.5 B / Q2_K] perf n=256 t=2
+[04:31:55] [0.5 B / Q2_K] temp_post=56.0C leaked_after=0
+[04:32:00] [0.5 B / Q2_K] done
+[04:32:00] [1.5 B / Q4_K_M / perf] download
+[04:33:54] [1.5 B / Q4_K_M] bytes=1117320736 sha=6a1a2eb6d156 temp_pre=47.7C stray=0
+[04:33:54] [1.5 B / Q4_K_M] perf n=128 t=2
+[04:36:32] [1.5 B / Q4_K_M] perf n=256 t=2
+[04:38:49] [1.5 B / Q4_K_M] temp_post=52.1C leaked_after=0
+[04:38:49] [1.5 B / Q4_K_M] done
+[04:38:49] [0.5 B / Q6_K / perf] download
+[04:39:33] [0.5 B / Q6_K] bytes=650379104 sha=2f82233630c3 temp_pre=49.4C stray=0
+[04:39:33] [0.5 B / Q6_K] perf n=128 t=2
+[04:39:50] [0.5 B / Q6_K] perf n=256 t=2
+[04:40:24] [0.5 B / Q6_K] temp_post=55.4C leaked_after=0
+[04:40:24] [0.5 B / Q6_K] done
+[04:40:24] [0.5 B / Q5_0 / full] download
+[04:41:03] [0.5 B / Q5_0] bytes=490475360 sha=925946ab2780 temp_pre=49.4C stray=0
+[04:49:29] [0.5 B / Q5_0] perf n=128 t=2
+[04:49:46] [0.5 B / Q5_0] perf n=256 t=2
+[04:50:18] [0.5 B / Q5_0] temp_post=57.6C leaked_after=0
+[04:50:18] [0.5 B / Q5_0] done
+[04:50:18] [0.5 B / Q3_K_M / perf] download
+[04:50:51] [0.5 B / Q3_K_M] bytes=432041824 sha=590d2479d401 temp_pre=49.9C stray=0
+[04:50:51] [0.5 B / Q3_K_M] perf n=128 t=2
+[04:51:04] [0.5 B / Q3_K_M] perf n=256 t=2
+[04:51:30] [0.5 B / Q3_K_M] temp_post=56.0C leaked_after=0
+[04:51:30] [0.5 B / Q3_K_M] done
+[04:51:30] [0.5 B / Q5_K_M / perf] download
+[04:51:56] [0.5 B / Q5_K_M] bytes=522186592 sha=041474553fca temp_pre=50.5C stray=0
+[04:51:56] [0.5 B / Q5_K_M] perf n=128 t=2
+[04:52:14] [0.5 B / Q5_K_M] perf n=256 t=2
+[04:52:48] [0.5 B / Q5_K_M] temp_post=57.1C leaked_after=0
+[04:52:48] [0.5 B / Q5_K_M] done
+[04:52:48] [0.5 B / Q4_K_M / perf] download
+[04:53:15] [0.5 B / Q4_K_M] bytes=491400032 sha=74a4da8c9fdb temp_pre=51.0C stray=0
+[04:53:15] [0.5 B / Q4_K_M] perf n=128 t=2
+[04:53:31] [0.5 B / Q4_K_M] perf n=256 t=2
+[04:54:05] [0.5 B / Q4_K_M] temp_post=57.1C leaked_after=0
+[04:54:05] [0.5 B / Q4_K_M] done
+[04:54:05] === DONE ===
