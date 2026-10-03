@@ -1,0 +1,26 @@
+{
+  "title": "Use More Threads, Not Fewer: Thread Scaling for LLM Decode on Hybrid and Homogeneous Edge CPUs",
+  "description": "Measurement artifact for a manuscript under review at IEEE Transactions on Parallel and Distributed Systems. LLM decode thread scaling on an Intel i7-12700H (hybrid Golden Cove plus Gracemont cores) and a Raspberry Pi 5 (Cortex-A76). Capping threads at the performance-core count costs 18.5% of decode throughput on the i7-12700H, where throughput peaks at 16 threads. Past the peak the cost is predictability rather than speed: the coefficient of variation rises from 2.7% at 16 threads to 29.4% at 18, and a controlled headroom experiment names the cause. Includes the raw records, the analysis code, and the macros the manuscript compiles from.",
+  "creators": [
+    {
+      "name": "Jacob, Manu Nicholas",
+      "orcid": "0009-0007-6589-6572"
+    }
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "LLM inference",
+    "llama.cpp",
+    "thread scaling",
+    "multithreading",
+    "heterogeneous CPU",
+    "Alder Lake",
+    "Raspberry Pi",
+    "Cortex-A76",
+    "edge computing",
+    "performance variability"
+  ],
+  "version": "v1.0.0"
+}
