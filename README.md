@@ -126,6 +126,11 @@ normal range, which is why a median-based filter would not have caught them.
 Inference is llama.cpp via `llama-bench`. The build commit is recorded in the
 `build` field of every measurement row.
 
+## Citing
+
+`CITATION.cff` carries the citation metadata, which is what GitHub's "Cite this repository"
+button renders.
+
 ## License
 
 MIT. See `LICENSE`.
