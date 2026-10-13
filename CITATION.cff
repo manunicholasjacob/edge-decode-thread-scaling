@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "Use More Threads, Not Fewer: Thread Scaling for LLM Decode on Hybrid and Homogeneous Edge CPUs (measurement artifact)"
+authors:
+  - family-names: "Jacob"
+    given-names: "Manu Nicholas"
+    orcid: "https://orcid.org/0009-0007-6589-6572"
+    affiliation: "Independent Researcher"
+type: software
+license: MIT
+repository-code: "https://github.com/manunicholasjacob/edge-decode-thread-scaling"
+url: "https://manunicholasjacob.com/"
+keywords:
+  - "LLM inference"
+  - "llama.cpp"
+  - "thread scaling"
+  - "multithreading"
+  - "heterogeneous CPU"
+  - "Alder Lake"
+  - "Raspberry Pi"
+  - "Cortex-A76"
+  - "edge computing"
+  - "performance variability"
