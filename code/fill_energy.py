@@ -83,7 +83,7 @@ best = min(by_t, key=lambda t: by_t[t]["E"])
 put("EnBestThreads", str(best))
 put("EnWorstPenalty", "%.0f" % (100 * (by_t[4]["E"] / by_t[best]["E"] - 1)))
 
-open(OUT, "w").write("\n".join(lines) + "\n")
+open(OUT, "w", newline="\n").write("\n".join(lines) + "\n")
 print("wrote", OUT, "(%d macros)" % (len(lines) - 1))
 print("  fastest == cheapest in %d of %d artifacts" % (agree, len(full)))
 print("  1->4 threads: power +%.0f%%, throughput +%.0f%%"

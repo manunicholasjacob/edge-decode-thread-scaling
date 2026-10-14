@@ -483,7 +483,7 @@ def main():
     so it does not predict the reliability contrast. Reported as an argument, not
     as a model result.""")
 
-    open(OUT, "w").write("\n".join(lines) + "\n")
+    open(OUT, "w", newline="\n").write("\n".join(lines) + "\n")
     print()
     print("wrote", OUT, "(%d macros)" % (len(lines) - 1))
 

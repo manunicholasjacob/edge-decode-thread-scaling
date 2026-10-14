@@ -224,7 +224,7 @@ put("MechXvalR", "%+.2f" % pearson([a for a, _ in pairs], [b for _, b in pairs])
 put("MechXvalMaxDelta", "%.0f" % max(100 * abs(b - a) / a for a, b in pairs))
 put("MechXvalLowerOf", str(sum(1 for a, b in pairs if b < a)))
 
-open(OUT, "w").write("\n".join(lines) + "\n")
+open(OUT, "w", newline="\n").write("\n".join(lines) + "\n")
 print("wrote", OUT, "(%d macros)" % (len(lines) - 1))
 print("  artifacts with matched counters + curve: %d (sha-verified %d)"
       % (len(recs), sum(r["matched"] for r in recs)))

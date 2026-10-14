@@ -162,6 +162,6 @@ for a in sorted(art, key=lambda a: (a["params"], a["I"])):
         a["tag"].replace("_", "\\_"), a["B"] / 1e9, a["I"] / 1e9, a["ipc"],
         a["peak"], pr, "\\checkmark" if pr == a["peak"] else "$-$"))
 put("TableModel", "%\n" + "\n".join(rows))
-open(OUT, "w").write("\n".join(lines) + "\n")
+open(OUT, "w", newline="\n").write("\n".join(lines) + "\n")
 print("\nwrote", OUT, "(%d macros)" % (len(lines) - 1))
 print("  MAE %.2f threads, max error %d" % (sum(errs) / len(errs), max(errs)))

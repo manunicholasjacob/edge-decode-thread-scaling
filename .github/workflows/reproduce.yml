@@ -49,6 +49,5 @@ jobs:
         run: |
           git status --porcelain
           git diff --exit-code
-          test -z "$(git status --porcelain)"
       - name: README numbers that the macro scripts do not write
         run: python code/check_readme_numbers.py

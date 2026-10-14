@@ -202,7 +202,7 @@ if pre:
     put("LapPrePeakT", str(max(pre, key=lambda k: st.median(pre[k]))))
     put("LapPreCVMax", "%.1f" % max(cv(v) for v in pre.values()))
 
-open(OUT, "w").write("\n".join(lines) + "\n")
+open(OUT, "w", newline="\n").write("\n".join(lines) + "\n")
 print("wrote", OUT, "(%d macros)" % (len(lines) - 1))
 print("  peak %.1f at t=%d ; t=%d %.1f ; median fall %.1f%%"
       % (med[peak_t], peak_t, top, med[top], 100 * (1 - med[top] / med[peak_t])))
