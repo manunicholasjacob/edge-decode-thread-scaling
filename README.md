@@ -1,5 +1,7 @@
 # Decode thread scaling on hybrid and homogeneous edge CPUs
 
+[![reproduce](https://github.com/manunicholasjacob/edge-decode-thread-scaling/actions/workflows/reproduce.yml/badge.svg)](https://github.com/manunicholasjacob/edge-decode-thread-scaling/actions/workflows/reproduce.yml)
+
 Measurement artifact for **"Use More Threads, Not Fewer: Thread Scaling for LLM
 Decode on Hybrid and Homogeneous Edge CPUs"**, under review at IEEE
 Transactions on Parallel and Distributed Systems.
@@ -59,6 +61,20 @@ come back empty, which is what it does. Generated figure PDFs are not tracked,
 because a PDF embeds its creation time and would differ on every build for
 that reason alone.
 
+A handful of numbers in this README do not come from those macro files: the
+15% to 61% order-dependent falls, the 0.16 mask ratio, and the order-control
+figures below. They are recomputed by
+
+```bash
+python code/check_readme_numbers.py
+```
+
+which also checks the one laptop macro that `fill_laptop_rand.py` carries as a
+constant (the 14.3% session drift) against what `tools/order_control.py`
+measures. The `reproduce` GitHub Actions workflow runs all of the above, then
+`git diff --exit-code`, on every push, on Linux and Windows with Python 3.11
+and 3.14.
+
 To check any sweep for the ordering confound:
 
 ```bash
@@ -96,6 +112,10 @@ The short version:
   `laptop_coreid_contaminated.jsonl` and `homo_sweep_v1_perturbed.jsonl` are
   kept and are **not** to be used for results. Each one is documented in
   `data/README.md` with the reason.
+- `code/fill_laptop.py` and `code/gen_fig_cliff.py` are superseded by
+  `code/fill_laptop_rand.py` and `code/gen_fig_threads.py` and are not used for
+  any number or figure. They are kept, marked as such, so the defect they
+  caused stays inspectable.
 
 ### The 7B exclusion rule
 

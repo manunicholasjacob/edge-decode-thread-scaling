@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Paper 17's laptop tables and figure, from one source of truth.
+"""SUPERSEDED by code/fill_laptop_rand.py. Not used for any number in the paper.
+It reads data/laptop_sweep.jsonl, a sequential sweep that is not part of this
+release, because sequential sweeps on this laptop are confounded with elapsed
+time (see data/README.md). Kept so the history stays inspectable.
+
+Paper 17's laptop tables and figure, from one source of truth.
 
 WHY THIS REPLACES HAND-MAINTAINED NUMBERS. Three defects in the submitted
 version all trace to the laptop numbers living in three places at once:

@@ -1,0 +1,54 @@
+name: reproduce
+
+# Regenerates every paper/numbers_*.tex macro file and Figure 1 from data/,
+# then fails if anything committed differs from what the scripts produce.
+# This is the README's "run the seven commands, then git diff" check, run
+# on every push so the published artifact cannot drift from its own data.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ["3.11", "3.14"]
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install matplotlib (the only dependency, for Figure 1)
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install matplotlib
+          python -m pip freeze
+      - name: Regenerate the macro files and Figure 1
+        run: |
+          python code/fill_laptop_rand.py
+          python code/fill_mech.py
+          python code/fit_model.py
+          python code/fill_energy.py
+          python code/analyze_randomized.py
+          python code/analyze_headroom_sizes.py
+          python code/gen_fig_threads.py
+          test -s paper/fig_cliff.pdf
+      - name: The committed macros must equal the regenerated ones
+        run: |
+          git status --porcelain
+          git diff --exit-code
+          test -z "$(git status --porcelain)"
+      - name: README numbers that the macro scripts do not write
+        run: python code/check_readme_numbers.py

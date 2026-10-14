@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""Figure 1 for the Hybrid-Core Decode Cliff paper.
+"""SUPERSEDED. Not used for any table, figure or number in the paper. Kept only
+so the history of the defect it caused stays inspectable. Figure 1 is drawn by
+code/gen_fig_threads.py from data/, and that script explains what was wrong
+here: the laptop values below are typed by hand, come from sequential
+sweeps that data/README.md explains are confounded with elapsed time, and had
+already drifted from the paper's own table.
+
+Figure 1 for the Hybrid-Core Decode Cliff paper.
 Left: decode tok/s vs thread count on the i7-12700H (6P+8E), normalized to each
 model's peak, showing the cliff past the P-core boundary. Right: the Raspberry Pi 5
 homogeneous-core control (no cliff). Type-42 fonts (no Type-3, per venue rules)."""

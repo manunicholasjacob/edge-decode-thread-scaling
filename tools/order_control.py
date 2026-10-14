@@ -194,7 +194,7 @@ def main():
             print("   - " + p)
         print("\nRemedy: several passes, each visiting the swept values in a")
         print("different permutation, one invocation per cell. See")
-        print("paper17-decode-cliff/code/randomized_sweep.sh.")
+        print("code/randomized_sweep.sh in this repository.")
         sys.exit(2)
     print("LOOKS ORDER-INDEPENDENT on the checks this data supports.")
     sys.exit(0)
